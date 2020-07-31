@@ -1,0 +1,84 @@
+/***** BASE STYLES *****/
+body {
+    background: #E8E8E8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#vision-board {
+    height: 850px;
+    width: 1200px;
+    margin: 20px auto;
+    overflow: auto;
+    background: url('../img/background.png');
+}
+
+.block {
+    width: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.large-block {
+    height: 430px;
+    padding: 70px 40px;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+}
+
+.left-align {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.block ul li {
+    list-style-type: none;
+}
+
+.light-bg {
+    background: white;
+}
+
+.dark-bg {
+    background: #3B3B3B;
+}
+
+.highlight {
+    background-color: #FFF44F;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+strong {
+    font-size: 38px;
+    text-transform: none;
+    line-height: 38px;
+}
+
+/***** CENTER SQUARE *****/
+
+.title {
+    color: white;
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+.title span {
+    font-family: 'Permanent Marker', sans-serif;
+    font-weight: normal;
+}
+
+
